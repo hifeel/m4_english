@@ -1,0 +1,593 @@
+{
+ "categories": [
+  {
+   "key": "airport",
+   "title": "✈️ 공항 (Airport)",
+   "scenarios": [
+    {
+     "key": "immigration",
+     "title": "입국 심사 (Immigration)",
+     "subtitle": "입국 카드, 심사관 질문",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Here is my passport and arrival card.",
+       "ko": "여권과 입국 카드입니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "What is the purpose of your visit?",
+       "ko": "방문 목적이 무엇입니까?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "I am here for tourism.",
+       "ko": "관광 목적입니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "How long will you stay?",
+       "ko": "얼마나 오래 머무르시나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "I will stay for one week.",
+       "ko": "일주일 동안 머무를 예정입니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Where will you be staying?",
+       "ko": "어디에 묵으시나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "At the Grand Hotel in downtown.",
+       "ko": "도심의 그랜드 호텔에 묵습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Enjoy your stay!",
+       "ko": "즐거운 여행 되세요!"
+      }
+     ],
+     "icon": "🛂"
+    },
+    {
+     "key": "baggage_claim",
+     "title": "수하물 검색 & 가져가기",
+     "subtitle": "수하물 신고, 카트 질문",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "I would like a luggage cart, please.",
+       "ko": "수하물 카트 한 대 빌릴 수 있나요?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Here you go. The baggage carousel is over there.",
+       "ko": "여기요. 수하물 컨베이어는 저쪽입니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, which carousel is for flight AA123?",
+       "ko": "AA123편 은 어떤 컨베이어입니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "It is Carousel B, next to the exit.",
+       "ko": "B 컨베이어입니다. 출구 옆입니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, that suitcase is not mine.",
+       "ko": "실례합니다, 그 여행 가방은 제 것이 아닙니다."
+      },
+      {
+       "speaker": "Agent",
+       "en": "I apologize. Can you describe the bag?",
+       "ko": "죄송합니다. 가방을 설명해 주실 수 있나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "It is black, a hard-shell suitcase, large in size.",
+       "ko": "검은색, 하드쉘 여행 가방, 큰 사이즈 입니다."
+      }
+     ],
+     "icon": "🧳"
+    },
+    {
+     "key": "customs",
+     "title": "세관 통과 (Customs)",
+     "subtitle": "신고 및 면세 품목",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "I have nothing to declare.",
+       "ko": "신고할 것이 없습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Are you carrying foods or plants?",
+       "ko": "음식물이나 식물 을 가지고 계신가요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "No, just personal souvenirs.",
+       "ko": "아니요, 개인 기념품만 있습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Please proceed to the exit.",
+       "ko": "출구로 가시면 됩니다."
+      }
+     ],
+     "icon": "🛃"
+    }
+   ],
+   "icon": "🛫"
+  },
+  {
+   "key": "hotel",
+   "title": "🏨 호텔 (Hotel)",
+   "scenarios": [
+    {
+     "key": "checkin",
+     "title": "체크인 (Check-in)",
+     "subtitle": "예약 확인, 신분증 조회",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Good evening, I have a reservation.",
+       "ko": "안녕하세요, 예약 했습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "May I have your name, please?",
+       "ko": "성함을 여쭈어도 될까요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "Kim. I booked for three nights.",
+       "ko": "김 입니다. 사흘 동안 예약했습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Found it. Could I see your passport and credit card?",
+       "ko": "찾았습니다. 여권과 신용카드 보여주시겠어요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "Here you go. Do you have a non-smoking room?",
+       "ko": "여기 있습니다. 금연실 있습니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Yes, here is your key card. Room 809, the eighth floor.",
+       "ko": "네, 여기 ключ 카드입니다. 809호, 8층입니다."
+      }
+     ],
+     "icon": "🔑"
+    },
+    {
+     "key": "hotel_questions",
+     "title": "질문하기 (Asking Questions)",
+     "subtitle": "식판 시간, 시설, 서비스",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "What time is breakfast served?",
+       "ko": "아침 식사 시간이 어떻게 됩니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Breakfast is from 6:30 to 10:00 AM on the second floor.",
+       "ko": "아침 식사는 오전 6시 30분부터 10시까지 2층 에서 제공됩니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Is the Wi-Fi free?",
+       "ko": "와이파이 무료입니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Yes, the password is on the information card on your desk.",
+       "ko": "네, 비밀번호는 책상 위 안내 카드에 있습니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Can I use the gym pool?",
+       "ko": "헬스장 수영장은 사용할 수 있습니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "The hotel does not have a pool, but the gym is on the top floor. Open from 6 AM to 10 PM.",
+       "ko": "수영장은 없으나, 지상 체육관은 있습니다. 오전 6시부터 저녁 10시까지 입니다."
+      }
+     ],
+     "icon": "ℹ️"
+    },
+    {
+     "key": "checkout",
+     "title": "체크아웃 (Check-out)",
+     "subtitle": "退房, 카드 결제, 영수증",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Hi, I'd like to check out, please.",
+       "ko": "안녕하세요, 체크아웃하려고 합니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Did you enjoy your stay?",
+       "ko": "즐겁게 머무르셨나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "Yes, it was wonderful.",
+       "ko": "네, 매우 좋았습니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Can I get a receipt for my credit card?",
+       "ko": "신용카드 영수증 받을 수 있습니까?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Sure, it will be ready in a moment.",
+       "ko": "네, 잠시 준비하겠습니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Thank you very much. Goodbye.",
+       "ko": "정말 감사합니다. 안녕히 계세요."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Thank you, and have a safe trip home!",
+       "ko": "감사합니다. 안전한 여행 되세요!"
+      }
+     ],
+     "icon": "🚪"
+    }
+   ],
+   "icon": "🏨"
+  },
+  {
+   "key": "restaurant",
+   "title": "🍽️ 식당 (Restaurant)",
+   "scenarios": [
+    {
+     "key": "seating",
+     "title": "좌석 안내 (Seating)",
+     "subtitle": "예약, 인원에 맞는 자리",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Good evening, are you expecting us?",
+       "ko": "안녕하세요, 예약 했던 손님 입니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "May I have your name?",
+       "ko": "성함이 어떻게 됩니까?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "We have a reservation for two under Kim.",
+       "ko": "김으로 두 명 예약 했습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Right this way, please.",
+       "ko": "이쪽으로 오세요."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Can we sit near the window?",
+       "ko": "창가 쪽에 앉아도 될까요?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "Of course. Here is your table by the window.",
+       "ko": "네, 창가 테이블 안내 드릴게요."
+      }
+     ],
+     "icon": "🪑"
+    },
+    {
+     "key": "ordering_food",
+     "title": "음식 주문 (Ordering Food)",
+     "subtitle": "메뉴 요청, 주문하기",
+     "dialogues": [
+      {
+       "speaker": "Speaker",
+       "en": "Can I see the menu, please?",
+       "ko": "메뉴 보여주실 수 있나요?"
+      },
+      {
+       "speaker": "Speaker",
+       "en": "What do you recommend?",
+       "ko": "뭐추천 하나요?"
+      },
+      {
+       "speaker": "Staff",
+       "en": "The grilled salmon is our special today.",
+       "ko": "오늘의 특선은 구운 연어입니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "I think I'll have that, please.",
+       "ko": "그것으로 하겠습니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "And I would like a glass of water, please.",
+       "ko": "그리고 물 한 잔 주세요."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Would you like something to drink?",
+       "ko": "음료 주문 해드릴까요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "A glass of red wine, please.",
+       "ko": "적포도주 한 잔 주세요."
+      }
+     ],
+     "icon": "📋"
+    },
+    {
+     "key": "paying",
+     "title": "계산하기 (Paying)",
+     "subtitle": "계산 요청, 카드 결제",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, can we get the bill?",
+       "ko": "실례합니다, 계산 부탁드립니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Here you go. Would you like to pay by cash or card?",
+       "ko": "계산서 입니다. 현금 또는 카드 결제 중 원하시나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "By card, please.",
+       "ko": "카드로 결제하겠습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Do you leave a tip?",
+       "ko": "팁 드릴까요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "No, thank you.",
+       "ko": "아니요, 괜찮습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Thank you for dining with us.",
+       "ko": "방문해 주셔서 감사합니다."
+      }
+     ],
+     "icon": "💳"
+    }
+   ],
+   "icon": "🍽️"
+  },
+  {
+   "key": "taxi_driver",
+   "title": "🚕 택시 & 길 찾기 (Taxi & Directions)",
+   "scenarios": [
+    {
+     "key": "hailing_taxi",
+     "title": "택시 잡기 & 목적지 알려주기",
+     "subtitle": "택시 호출, 목적지 전달",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, are you available?",
+       "ko": "실례합니다, 빈 탱시입니까?"
+      },
+      {
+       "speaker": "Driver",
+       "en": "Where to, please?",
+       "ko": "어디로 가시죠?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "Could you take me to Times Square, please?",
+       "ko": "타임스퀘어로 가서 줄래요?"
+      },
+      {
+       "speaker": "Driver",
+       "en": "Sure, it is about a 15-minute ride.",
+       "ko": "네, 약 15분 걸립니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "How much will the fare roughly be?",
+       "ko": "얼마나 나올까요?"
+      },
+      {
+       "speaker": "Driver",
+       "en": "It will be around $25, depending on traffic.",
+       "ko": "교통 상황에 따라 약 25달러 나올 것 같습니다."
+      }
+     ],
+     "icon": "🚕"
+    },
+    {
+     "key": "asking_directions",
+     "title": "길 묻기 (Asking Directions)",
+     "subtitle": "방문 찾기, 걸음 길이 질문",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, could you help me?",
+       "ko": "실례합니다, 도와주실 수 있나요?"
+      },
+      {
+       "speaker": "Local",
+       "en": "Sure, what do you need?",
+       "ko": "네, 뭘 도와드릴까요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "How do I get to the central museum?",
+       "ko": "중앙 박물관은 어떻게 가나요?"
+      },
+      {
+       "speaker": "Local",
+       "en": "Go straight for two blocks, then turn left.",
+       "ko": "두 블록 직진한 뒤 왼쪽으로 꺾으시면 됩니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Is it a short walk? About 10 minutes?",
+       "ko": "몇 분 정도 걸립니까?"
+      },
+      {
+       "speaker": "Local",
+       "en": "It is about 15 minutes from here.",
+       "ko": "거기에서 15분 정도 됩니다."
+      },
+      {
+       "speaker": "Guest",
+       "en": "Thank you so much!",
+       "ko": "정말 감사합니다!"
+      }
+     ],
+     "icon": "🗺️"
+    }
+   ],
+   "icon": "🚕"
+  },
+  {
+   "key": "emergency",
+   "title": "🚨 비상 상황 (Emergency)",
+   "scenarios": [
+    {
+     "key": "lost_items",
+     "title": "분실 신고 (Lost Items)",
+     "subtitle": "지갑, 여권, 가방 분실",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, I have lost my wallet.",
+       "ko": "실례합니다, 지갑을 잃어버렸습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "When did you last see it?",
+       "ko": "마지막으로 본 것이 언제입니까?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "I think it was at the restaurant in the mall.",
+       "ko": "쇼핑 몰 식당 에서 잃어버린 것 같습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "Let me check our lost and found. Can you describe it?",
+       "ko": "분실물 센터를 확인해 볼게요. 모양을 설명해 주시겠나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "It is brown leather with some credit cards inside.",
+       "ko": "갈색 가죽 지갑이고, 신용카드가 들어 있습니다."
+      },
+      {
+       "speaker": "Staff",
+       "en": "We received a similar one. Here it is.",
+       "ko": "비슷한 걸 받았습니다. 여기 있습니다."
+      }
+     ],
+     "icon": "🔍"
+    },
+    {
+     "key": "police_call",
+     "title": "경찰 신고 (Police Report)",
+     "subtitle": "도난, 피해 상담",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Excuse me, I was robbed.",
+       "ko": "실례합니다, 도둑을 맞았습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Are you hurt?",
+       "ko": "다치지 않으셨나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "No, I am fine. But they took my bag.",
+       "ko": "아니요, 다칩니다. 하지만 가방을 훔쳤습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "Please describe what happened.",
+       "ko": "어떤 일이 생겼는지 설명해 주세요."
+      },
+      {
+       "speaker": "Guest",
+       "en": "I was walking near the station and someone snatched my bag.",
+       "ko": "역 근처를 걷는데 누군가 내 가방을 찼습니다."
+      },
+      {
+       "speaker": "Officer",
+       "en": "I will file a report. You can use my laptop to contact the embassy.",
+       "ko": "신고서를 작성하겠습니다. 대사관 연락을 위해 노트북을 쓰셔도 됩니다."
+      }
+     ],
+     "icon": "🚔"
+    },
+    {
+     "key": "finding_help",
+     "title": "도움 찾기 (Asking for Help)",
+     "subtitle": "응급 상황, 실석 위치",
+     "dialogues": [
+      {
+       "speaker": "Guest",
+       "en": "Can someone please help me? I am very sick.",
+       "ko": "도와주실 분 계신가요? 아파서 매우 아픕니다."
+      },
+      {
+       "speaker": "Stranger",
+       "en": "What is wrong? Do we need to call an ambulance?",
+       "ko": "무슨 일입니까? 구급차를 불러야 하나요?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "I think I have a bad headache and stomach pain.",
+       "ko": "머리가 매우 아프고, 배도 아픕니다."
+      },
+      {
+       "speaker": "Stranger",
+       "en": "Let me call emergency services. Is there a nearby hospital?",
+       "ko": "緊急 서비스를 호출할게요. 근처에 병원 있습니까?"
+      },
+      {
+       "speaker": "Guest",
+       "en": "Yes, there is one one block from here.",
+       "ko": "네, 여기에서 한 블록 거리에 있습니다."
+      },
+      {
+       "speaker": "Stranger",
+       "en": "The ambulance is coming. Please stay calm.",
+       "ko": "구급차가 갈 것입니다. 조용하게 주세요."
+      }
+     ],
+     "icon": "🚑"
+    }
+   ],
+   "icon": "🚨"
+  }
+ ],
+ "recommendation_date": "2026-09-27",
+ "site_title": "🌍 M4 English - 여행 영어 회화"
+}
